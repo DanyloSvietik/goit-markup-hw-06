@@ -242,7 +242,6 @@ body {
 
 .main {
     padding: 200px 0;
-    /*padding-bottom: 280px;*/
     background-color: var(--hero-footer-color);
 }
 
@@ -366,7 +365,6 @@ body {
 /*?-----------Примеры работ---------------*/
 
 .body-activities {
-    /*padding-top: 94px;*/
     padding-bottom: 94px;
 }
 
@@ -650,6 +648,19 @@ body {
     fill: var(--header-background-color);
 }
 /*----------Footer-form-------------------*/
+
+.signature {
+    margin-left: 93px;
+}
+
+.push-mail {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
 .footer-form {
     display: flex;
 }
@@ -683,6 +694,13 @@ body {
 
 .push-icon {
     margin-left: 10px;
+}
+
+.hero-button.push {
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*---------Portfolio ---------*/
@@ -861,17 +879,17 @@ body {
 }
 
 .btn-close {
+    position: absolute;
     display: flex;
     width: 30px;
     height: 30px;
+    top: 8px;
+    right: 8px;
 
-    margin-right: 8px;
-    margin-top: 8px;
-    margin-left: auto;
-    margin-bottom: auto;
     border-radius: 50%;
     background: var(--header-background-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 
     align-items: center;
     justify-content: center;
